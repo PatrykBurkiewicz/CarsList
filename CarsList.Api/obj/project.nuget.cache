@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zTGdQNazSwtgFLi5J7P8M4mhA551x8mh0uoUP8m203bZoLQMYJpjStQDtvdRatngAdBfuExqTq6mg7iDXyU0cg==",
+  "dgSpecHash": "0UsFA/WRan2wTgO7RNEql5P5yFeuOIeYXMZOGfeJGbH5wN1BwY4xJUhDiszZ8+gKONBl+GaJvyzN5AddZfpWDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Api\\CarsList.Api.csproj",
+  "projectFilePath": "C:\\Users\\admin\\CarsList\\CarsList.Api\\CarsList.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

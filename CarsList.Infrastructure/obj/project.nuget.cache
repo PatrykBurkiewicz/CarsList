@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Qm6TGIJo/3PEtaVswuN/ew7SAfRAGewGQezBycXs119Lr9c8OVC55OYhLLMux0EkHML/VjFiwr2y9jxGTupFQ==",
+  "dgSpecHash": "nW6bkc7sdagl7M71QFFGKK2kkrczy6CenP7ioaQ8H4uEA95hjbL89DdDPGmUT7lOpIuFKPEskO9lo7KCfpf4/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\admin\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.0\\microsoft.aspnetcore.authentication.abstractions.2.1.0.nupkg.sha512",

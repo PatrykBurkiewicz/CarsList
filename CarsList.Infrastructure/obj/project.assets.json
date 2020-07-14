@@ -7518,11 +7518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
       "projectName": "CarsList.Infrastructure",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\admin\\CarsList\\CarsList.Infrastructure\\CarsList.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\admin\\CarsList\\CarsList.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -7542,8 +7542,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Core\\CarsList.Core.csproj": {
-              "projectPath": "C:\\Users\\admin\\source\\repos\\CarsList\\CarsList.Core\\CarsList.Core.csproj"
+            "C:\\Users\\admin\\CarsList\\CarsList.Core\\CarsList.Core.csproj": {
+              "projectPath": "C:\\Users\\admin\\CarsList\\CarsList.Core\\CarsList.Core.csproj"
             }
           }
         }

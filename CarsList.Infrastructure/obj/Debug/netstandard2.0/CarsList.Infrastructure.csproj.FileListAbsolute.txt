@@ -10,3 +10,15 @@ C:\Users\admin\source\repos\CarsList\CarsList.Infrastructure\obj\Debug\netstanda
 C:\Users\admin\source\repos\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.dll
 C:\Users\admin\source\repos\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.pdb
 C:\Users\admin\source\repos\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\CarsList\CarsList.Infrastructure\bin\Debug\netstandard2.0\CarsList.Infrastructure.deps.json
+C:\Users\admin\CarsList\CarsList.Infrastructure\bin\Debug\netstandard2.0\CarsList.Infrastructure.dll
+C:\Users\admin\CarsList\CarsList.Infrastructure\bin\Debug\netstandard2.0\CarsList.Infrastructure.pdb
+C:\Users\admin\CarsList\CarsList.Infrastructure\bin\Debug\netstandard2.0\CarsList.Core.dll
+C:\Users\admin\CarsList\CarsList.Infrastructure\bin\Debug\netstandard2.0\CarsList.Core.pdb
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.csprojAssemblyReference.cache
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.AssemblyInfo.cs
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.csproj.CopyComplete
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.dll
+C:\Users\admin\CarsList\CarsList.Infrastructure\obj\Debug\netstandard2.0\CarsList.Infrastructure.pdb
