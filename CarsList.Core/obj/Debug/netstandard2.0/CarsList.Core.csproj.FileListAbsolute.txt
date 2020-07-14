@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\CarsList\CarsList.Core\bin\Debug\netstandard2.0\CarsList.Core.deps.json
+C:\Users\admin\source\repos\CarsList\CarsList.Core\bin\Debug\netstandard2.0\CarsList.Core.dll
+C:\Users\admin\source\repos\CarsList\CarsList.Core\bin\Debug\netstandard2.0\CarsList.Core.pdb
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.AssemblyInfo.cs
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.dll
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.pdb
+C:\Users\admin\source\repos\CarsList\CarsList.Core\obj\Debug\netstandard2.0\CarsList.Core.csproj.CoreCompileInputs.cache
