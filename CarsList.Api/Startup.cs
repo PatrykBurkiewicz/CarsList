@@ -8,6 +8,7 @@ using CarsList.Core.Repositories;
 using CarsList.Infrastructure.Mapper;
 using CarsList.Infrastructure.Repositories;
 using CarsList.Infrastructure.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -17,6 +18,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebApi.Helpers;
 
 namespace CarsList.Api
 {
@@ -32,6 +34,7 @@ namespace CarsList.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddControllers();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0)
@@ -45,6 +48,8 @@ namespace CarsList.Api
 
             services.AddScoped<ICarService, CarService>();
 
+            services.AddScoped<IUserService, UserService>();
+
             services.AddSingleton(AutoMapperConfig.Initialize());
 
             services.AddDbContext<CarsListDbContext>(options =>
@@ -54,6 +59,9 @@ namespace CarsList.Api
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "My API", Version = "v1" });
             });
+
+            services.AddAuthentication("BasicAuthentication")
+               .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -74,6 +82,12 @@ namespace CarsList.Api
 
             app.UseRouting();
 
+            app.UseCors(x => x
+               .AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

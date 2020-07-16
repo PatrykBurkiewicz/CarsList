@@ -126,11 +126,11 @@ C:\Users\admin\CarsList\CarsList.Api\bin\Debug\netcoreapp3.1\CarsList.Core.pdb
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.csprojAssemblyReference.cache
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.AssemblyInfoInputs.cache
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.AssemblyInfo.cs
-C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.csproj.CoreCompileInputs.cache
-C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.RazorTargetAssemblyInfo.cache
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.csproj.CopyComplete
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.dll
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.pdb
 C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.genruntimeconfig.cache
+C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.csproj.CoreCompileInputs.cache
+C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\admin\CarsList\CarsList.Api\obj\Debug\netcoreapp3.1\CarsList.Api.MvcApplicationPartsAssemblyInfo.cache

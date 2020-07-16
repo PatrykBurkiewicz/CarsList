@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CarsList.Api.Controllers
 {   
+    [Authorize]
     [Route("[controller]")]
     public class CarsController : Controller
     {
