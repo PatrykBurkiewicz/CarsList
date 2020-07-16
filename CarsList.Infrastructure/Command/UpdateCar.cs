@@ -15,6 +15,6 @@ namespace CarsList.Infrastructure.Command
         public DateTime DateOc { get;  set; }
         public DateTime DateReview { get;  set; }
 
-        public string CarType { get;  set; }
+        public int CarType { get;  set; }
     }
 }

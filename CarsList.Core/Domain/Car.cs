@@ -16,7 +16,7 @@ namespace CarsList.Core.Domain
         public DateTime DateOc { get; protected set; }
         public DateTime DateReview { get; protected set; }
 
-        public string CarType { get; protected set; }
+        public int CarType { get; protected set; }
 
         public DateTime CreatedAt { get; protected set; }
 
@@ -26,7 +26,7 @@ namespace CarsList.Core.Domain
 
         }
 
-        public Car(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, string carType)
+        public Car(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, int carType)
         {
             Id = id;
             setMark(mark);
@@ -79,7 +79,7 @@ namespace CarsList.Core.Domain
             UpdatedAt = DateTime.UtcNow;
         }
 
-        public void setCarType(string carType)
+        public void setCarType(int carType)
         {
 
             CarType = carType;

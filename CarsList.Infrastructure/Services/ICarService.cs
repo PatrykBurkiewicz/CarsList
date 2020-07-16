@@ -14,9 +14,9 @@ namespace CarsList.Infrastructure.Services
 
         Task<IEnumerable<CarDto>> BrowseAsync(string mark = null);
 
-        Task CreateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, string carType);
+        Task CreateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, int carType);
 
-        Task UpdateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, string carType);
+        Task UpdateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, int carType);
 
         Task DeleteAsync(Guid id);
     }

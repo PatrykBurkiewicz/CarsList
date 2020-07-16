@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarsList.Api.Migrations
 {
     [DbContext(typeof(CarsListDbContext))]
-    [Migration("20200712231349_AddCarTable")]
-    partial class AddCarTable
+    [Migration("20200716120257_addTableCars")]
+    partial class addTableCars
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,8 +30,8 @@ namespace CarsList.Api.Migrations
                     b.Property<float>("Capacity")
                         .HasColumnType("real");
 
-                    b.Property<string>("CarType")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CarType")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");

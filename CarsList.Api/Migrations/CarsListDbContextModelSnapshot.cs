@@ -28,8 +28,8 @@ namespace CarsList.Api.Migrations
                     b.Property<float>("Capacity")
                         .HasColumnType("real");
 
-                    b.Property<string>("CarType")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CarType")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");

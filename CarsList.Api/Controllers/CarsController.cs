@@ -4,10 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using CarsList.Infrastructure.Command;
 using CarsList.Infrastructure.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarsList.Api.Controllers
-{
+{   
     [Route("[controller]")]
     public class CarsController : Controller
     {

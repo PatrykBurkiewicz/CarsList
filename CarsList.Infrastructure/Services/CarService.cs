@@ -44,9 +44,9 @@ namespace CarsList.Infrastructure.Services
 
         }
 
-        public async Task CreateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, string carType)
+        public async Task CreateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, int carType)
         {
-            if(carType != CarType.Car.ToString() && carType != CarType.SmallTruck.ToString() && carType != CarType.Truck.ToString())
+            if (carType != Convert.ToInt32(CarType.Car) && carType != Convert.ToInt32(CarType.SmallTruck) && carType != Convert.ToInt32(CarType.Truck))
             {
                 throw new Exception($"Car Type: '{carType}' is invalid.");
             }
@@ -60,11 +60,11 @@ namespace CarsList.Infrastructure.Services
 
         }
 
-        public async Task UpdateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, string carType)
+        public async Task UpdateAsync(Guid id, string mark, string model, float capacity, DateTime dateOc, DateTime dateReview, int carType)
         {
             var @car = await _carRepository.GetOrFailAsync(id);
 
-            if (carType != CarType.Car.ToString() && carType != CarType.SmallTruck.ToString() && carType != CarType.Truck.ToString())
+            if (carType != Convert.ToInt32(CarType.Car) && carType != Convert.ToInt32(CarType.SmallTruck) && carType != Convert.ToInt32(CarType.Truck))
             {
                 throw new Exception($"Car Type: '{carType}' is invalid.");
             }

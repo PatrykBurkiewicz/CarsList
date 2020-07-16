@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CarsList.Api.Migrations
 {
-    public partial class AddCarTable : Migration
+    public partial class addTableCars : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -17,7 +17,7 @@ namespace CarsList.Api.Migrations
                     Capacity = table.Column<float>(nullable: false),
                     DateOc = table.Column<DateTime>(nullable: false),
                     DateReview = table.Column<DateTime>(nullable: false),
-                    CarType = table.Column<string>(nullable: true),
+                    CarType = table.Column<int>(nullable: false),
                     CreatedAt = table.Column<DateTime>(nullable: false),
                     UpdatedAt = table.Column<DateTime>(nullable: false)
                 },

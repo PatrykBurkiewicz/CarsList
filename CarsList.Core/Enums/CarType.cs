@@ -6,9 +6,9 @@ namespace CarsList.Core.Enums
 {
     public enum CarType
     {
-        Car,
-        SmallTruck,
-        Truck
+        Car = 1 ,
+        SmallTruck = 2,
+        Truck = 3 
 
     }
 }
